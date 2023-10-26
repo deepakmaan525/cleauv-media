@@ -1,0 +1,378 @@
+@import url('./root.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
+.my-container {
+    max-width: 1140px !important;
+}
+
+.mw-1165 {
+    max-width: 1165px !important;
+}
+
+.ff-montserrat {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.ff-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* navbar */
+nav {
+    background: rgba(255, 255, 255, 0.10);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.06);
+}
+
+.primary-btn {
+    border-radius: 5px;
+    padding: 16px 30px;
+    border-radius: 5px;
+    border: 1px solid var(--lightwhite);
+}
+
+.lh-150 {
+    line-height: 150%;
+}
+
+/* herosection */
+.mxw-800 {
+    max-width: 800px;
+}
+
+.mxw-730 {
+    max-width: 730px;
+}
+
+.ellipse-position {
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+
+.herosec-orangeEllipse {
+    position: absolute;
+    bottom: 4%;
+    left: -22%;
+}
+
+.herosec-blueEllipse {
+    position: absolute;
+    bottom: 60%;
+    left: -26%;
+}
+
+.herosec-triangleEllipse {
+    position: absolute;
+    bottom: 4%;
+    right: -22%;
+}
+
+.herosec-yellowEllipse {
+    position: absolute;
+    bottom: 60%;
+    right: -26%;
+}
+
+/* section */
+.my-container2 {
+    max-width: 1400px !important;
+}
+
+.mxw-700 {
+    max-width: 700px;
+}
+
+/* Services */
+.mw-612 {
+    max-width: 612px;
+}
+
+.sec-box {
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    padding: 14px 16px;
+    transition: .4s;
+}
+
+.sec-box:hover {
+    border: 1px solid var(--yellow);
+    background: #242323;
+    box-shadow: 5px 5px 0px 0px var(--yellow);
+}
+
+.yellow-elipes1 {
+    border-radius: 300px;
+    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    filter: blur(239px);
+    width: 300px;
+    height: 138px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -2%;
+    left: -6%;
+}
+
+.yellow-elipes2 {
+    border-radius: 300px;
+    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    filter: blur(239px);
+    width: 300px;
+    height: 138px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.triangle-elipes {
+    position: absolute;
+    top: 11%;
+    left: 16%;
+}
+
+.wifi-elipes {
+    position: absolute;
+    top: 6%;
+    right: 16%;
+}
+
+.virus-elipes {
+    position: absolute;
+    bottom: 6%;
+    left: 0%;
+}
+
+.dots-elipes {
+    position: absolute;
+    bottom: 6%;
+    right: 2%;
+}
+
+/* pricing-section */
+.pricing-card {
+    padding: 32px;
+    max-width: 364px;
+    border-radius: 15px;
+    border: 1px solid var(--lightblack2);
+    height: 100%;
+    transition: .4s;
+}
+
+.pricing-card:hover {
+    border: 1px solid var(--yellow);
+    box-shadow: 10px 10px 0px 0px #FFCF23;
+}
+
+.pricing-card:hover .priceuppar-btn {
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+    color: var(--lightwhite);
+}
+
+.pricing-card:hover .price-btn {
+    border: 2px solid var(--brown);
+}
+
+.br-line {
+    border-bottom: 1px solid var(--gray);
+}
+
+.price-btn {
+    padding: 16px 95px;
+    border-radius: 5px;
+    border: 2px solid var(--lightblack2);
+    transition: .4s;
+}
+
+.priceuppar-btn {
+    padding: 12px 57px;
+    border-radius: 45px;
+    border: 1px solid var(--lightblack2);
+    background: var(--lightwhite2);
+    transition: .4s;
+}
+
+.position-priceBtn {
+    position: absolute;
+    top: -28px;
+    left: 10%;
+}
+
+.price-img1 {
+    mix-blend-mode: multiply;
+}
+
+.mxw-460 {
+    max-width: 460px;
+}
+
+.mxw-350 {
+    max-width: 350px;
+}
+
+.price-lowerBtn {
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    padding: 14px 32px;
+    background-color: transparent;
+}
+
+.right-line {
+    border-right: 2px solid rgba(0, 0, 0, 0.10);
+}
+
+.webflow-btn {
+    border-radius: 39px;
+    background: rgba(255, 255, 255, 0.20);
+    padding: 12px 23px;
+    border: none;
+}
+
+.webflow-ellipse1 {
+    width: 300px;
+    height: 138px;
+    flex-shrink: 0;
+    border-radius: 300px;
+    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    filter: blur(239px);
+    position: absolute;
+    top: 0;
+    left: -20px;
+}
+
+.webflow-ellipse2 {
+    width: 300px;
+    height: 138px;
+    flex-shrink: 0;
+    border-radius: 300px;
+    background: var(--Linear, linear-gradient(125deg, #FFCF23 0%, #FFA723 100%));
+    filter: blur(239px);
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}
+
+/* backToTop */
+#backToTop {
+    width: 70px;
+    height: 70px;
+    animation: float 2.4s linear infinite;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.display_none {
+    display: none;
+}
+
+.display_block {
+    display: block;
+}
+
+* Frequently Asked Questions */ .accordion-button {
+    background-color: var(--text-lightwhite3) !important;
+}
+
+.accordion {
+    --bs-accordion-bg: var(--text-lightwhite3) !important;
+    --bs-accordion-border-color: none !important;
+    max-width: 880px !important;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.accordion-button::after {
+    background-image: url('../images/accordian-arrow-img.png') !important;
+    display: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    background-color: unset !important;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.mw-840 {
+    max-width: 840px;
+}
+
+.hero-sec-elipes1 {
+    position: absolute;
+    top: 1%;
+    left: -4%;
+}
+
+.hero-sec-elipes4 {
+    position: absolute;
+    bottom: -11%;
+    right: -7%;
+}
+
+.accordion-item {
+    border: none !important;
+}
+
+.bb-1 {
+    border-bottom: 1px solid var(--light-gray) !important;
+
+}
+
+.footer-circle {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: rgba(250, 250, 250, 0.15);
+    transition: .4s;
+}
+
+.footer-circle:hover {
+    transform: translatey(-10px);
+}
+
+.mx-320 {
+    max-width: 320px;
+}
+
+.footer-last-line {
+    max-width: 100%;
+    height: 2px;
+    opacity: 0.2;
+    background: var(--gray4);
+}
+
+/* keyrames */
+@keyframes float {
+    0% {
+        transform: translatey(0) scale(1);
+
+    }
+
+    50% {
+        transform: translatey(-10px) scale(1.2);
+
+    }
+
+    100% {
+        transform: translatey(0) scale(1);
+    }
+}
+
+@media (min-width:768px) {
+    .accordion-button::after {
+        background-image: url('../images/accordian-arrow-img.png') !important;
+        display: block;
+    }
+}
