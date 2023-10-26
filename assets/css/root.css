@@ -1,12 +1,12 @@
 :root {
 
     /* font-size */
-    --fs-sm: 16px;
-    --fs-md: 20px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
     --fs-lg: 24px;
-    --fs-xl: 42px;
+    --fs-xl: 30px;
     --fs-xxl: 25px;
-    --fs-xxl1: 62px;
+    --fs-xxl1: 29px;
 
     /* color */
     --lightblack: #3b3939;
@@ -158,7 +158,7 @@
         --fs-lg: 24px;
         --fs-xl: 42px;
         --fs-xxl: 44px;
-        --fs-xxl1: 62px;
+        --fs-xxl1: 45px;
     }
 }
 
