@@ -4,7 +4,29 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Primary Meta Tags -->
     <title>Cleauv Media</title>
+    <meta name="title" content="Cleauv Media" />
+    <meta name="description"
+        content="At Cleauv Media, we are all about creativity. Our team of experts specializes in delivering innovative solutions that capture the essence of your brand and bring it to life in new and exciting ways." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://cleauv-media376.netlify.app/" />
+    <meta property="og:title" content="Cleauv Media" />
+    <meta property="og:description"
+        content="At Cleauv Media, we are all about creativity. Our team of experts specializes in delivering innovative solutions that capture the essence of your brand and bring it to life in new and exciting ways." />
+    <meta property="og:image" content="https://imgbox.com/sqIjfX4M" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://cleauv-media376.netlify.app/" />
+    <meta property="twitter:title" content="Cleauv Media" />
+    <meta property="twitter:description"
+        content="At Cleauv Media, we are all about creativity. Our team of experts specializes in delivering innovative solutions that capture the essence of your brand and bring it to life in new and exciting ways." />
+    <meta property="twitter:image" content="https://imgbox.com/sqIjfX4M" />
+
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
@@ -140,24 +162,28 @@
         </div>
     </header>
     <!-- section -->
-    <section class="bg-lightwhite2">
+    <div class="bg-lightwhite2 ">
         <div class="container my-container2 py-5">
-            <div class="row py-5">
-                <div class="col-4">
+            <div class="row py-5 gap-4 gap-lg-0 ">
+                <div class="col-lg-4 col-sm-6 ">
                     <img class="w-100" src="./assets/images/sec2-img1.png" alt="sec-img">
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-6 ">
                     <img class="w-100" src="./assets/images/sec2-img2.png" alt="sec-img">
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-sm-6 ">
                     <img class="w-100" src="./assets/images/sec2-img3.png" alt="sec-img">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- preloader -->
+    <div class="loader_bg">
+        <div class="loader"><img src="./assets/images/preloader.gif" alt="priloder"></div>
+    </div>
     <!-- revelant-work section -->
-    <section class="bg-lightwhite3">
-        <div class="container .my-container">
+    <section class="bg-lightwhite3 overflow-hidden pt-5">
+        <div class="container .my-container pt-sm-5">
             <h2 class="mb-0 fs-xl fw-semibold ff-montserrat text-lightblack2 text-center">Relevant Works</h2>
             <p class="mb-0 fs-sm fw-normal lh-150 ff-montserrat text-gray mxw-700 mx-auto text-center">Our team has
                 successfully
@@ -165,7 +191,29 @@
                 with a diverse range of clients across various industries, providing innovative solutions that address
                 their unique challenges.</p>
         </div>
+        <div class="revelant-work d-none d-md-block py-5">
+            <img src="./assets/images/relevantWorl-slider1.png" alt="slider-img-1" class="mx-4">
+            <img src="./assets/images/relevantWorl-slider2.png" alt="slider-img-2" class="mx-4">
+            <img src="./assets/images/relevantWorl-slider3.png" alt="slider-img-3" class="mx-4">
+        </div>
+        <div class="container my-container">
+            <div class="row flex-column d-block d-md-none">
+                <div class="col-12 pt-3">
+                    <img src="./assets/images/relevantWorl-slider1.png" alt="slider-img1" class="w-100">
+                </div>
+                <div class="col-12 pt-3">
+                    <img src="./assets/images/relevantWorl-slider2.png" alt="slider-img-2" class="w-100">
+                </div>
+                <div class="col-12 pt-3">
+                    <img src="./assets/images/relevantWorl-slider3.png" alt="slider-img3" class="w-100">
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5 pt-5">
+            <button class="fs-sm fw-semibold ff-Montserrat text-lightblack2 btn-book">Book a Call</button>
+        </div>
     </section>
+
     <!-- services section -->
     <section class="bg-lightblack3 py-5 position-relative">
         <div class="container my-container2">
@@ -834,6 +882,13 @@
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
         </script>
+    <!-- preloader -->
+    <script>
+        setTimeout(function () {
+            once: true,
+                $('.loader_bg').fadeToggle();
+        }, 1700);
+    </script>
     <script>
         $('.customer-slider').slick({
             infinite: true,
@@ -864,6 +919,50 @@
         }
         );
     </script>
+    <script>
+        $('.revelant-work').slick({
+            infinite: true,
+            autoplay: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '400px',
+            arrows: false,
+            // fade: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        centerMode: true,
+                        centerPadding: '60px',
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false,
+                    }
+                },
+
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                },
+            ]
+        }
+        );
+    </script>
+
     <script src="./assets/js/app.js"></script>
 </body>
 
