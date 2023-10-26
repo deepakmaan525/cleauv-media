@@ -76,12 +76,6 @@ ul {
     transition: .4s;
 }
 
-.nav-login-btn:hover {
-    border: 1px solid var(--text-yellow);
-    background: #242323;
-    box-shadow: 5px 5px 0px 0px var(--text-yellow);
-}
-
 .nav-bottom-line::before {
     content: "";
     position: absolute;
@@ -104,6 +98,11 @@ ul {
     padding: 16px 30px;
     border-radius: 5px;
     border: 1px solid var(--lightwhite);
+    transition: .4s;
+}
+
+.primary-btn:hover {
+    background-color: var(--brown2) !important;
 }
 
 .lh-150 {
@@ -322,10 +321,38 @@ ul {
     border: 1px solid rgba(0, 0, 0, 0.40);
     padding: 14px 32px;
     background-color: transparent;
+    transition: .4s;
+}
+
+.price-lowerBtn:hover {
+    background-color: var(--brown2);
+    color: var(--lightwhite);
 }
 
 .right-line {
     border-right: 2px solid rgba(0, 0, 0, 0.10);
+}
+
+/* webflow */
+.webflow-blue {
+    position: absolute;
+    right: 0%;
+    top: 65%;
+    width: 100px;
+}
+
+.webflow-wii {
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    width: 40px;
+}
+
+.webflow-triangle {
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    width: 100px;
 }
 
 .webflow-btn {
@@ -333,6 +360,7 @@ ul {
     background: rgba(255, 255, 255, 0.20);
     padding: 12px 23px;
     border: none;
+    width: 100px;
 }
 
 .webflow-ellipse1 {
@@ -428,6 +456,20 @@ ul {
 
 .bb-1 {
     border-bottom: 1px solid var(--light-gray) !important;
+}
+
+.qa-blue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+}
+
+.qa-triangle {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    width: 40px;
 }
 
 /* customer section */
@@ -559,6 +601,31 @@ ul {
         width: unset;
     }
 
+    .webflow-blue {
+        position: absolute;
+        right: 0%;
+        top: 48%;
+        width: unset;
+    }
+
+    .webflow-wii,
+    .webflow-triangle {
+        width: unset;
+    }
+
+    .qa-blue {
+        position: absolute;
+        top: 10%;
+        left: 0;
+        width: unset;
+    }
+
+    .qa-triangle {
+        position: absolute;
+        bottom: 10%;
+        right: 0;
+        width: unset;
+    }
 }
 
 @media (max-width:992px) {
