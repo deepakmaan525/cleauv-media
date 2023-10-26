@@ -184,14 +184,14 @@ nav {
 }
 
 .price-btn {
-    padding: 16px 95px;
+    padding: 16px 30px;
     border-radius: 5px;
     border: 2px solid var(--lightblack2);
     transition: .4s;
 }
 
 .priceuppar-btn {
-    padding: 12px 57px;
+    padding: 12px 20px;
     border-radius: 45px;
     border: 1px solid var(--lightblack2);
     background: var(--lightwhite2);
@@ -344,7 +344,7 @@ nav {
 
 }
 
-.mw-344 {
+.mxw-548 {
     max-width: 548px;
 }
 
@@ -425,5 +425,20 @@ nav {
 
     .slick-dots li {
         margin: 0px 20px !important;
+    }
+
+    .price-btn {
+        padding: 16px 95px;
+        border-radius: 5px;
+        border: 2px solid var(--lightblack2);
+        transition: .4s;
+    }
+
+    .priceuppar-btn {
+        padding: 12px 57px;
+        border-radius: 45px;
+        border: 1px solid var(--lightblack2);
+        background: var(--lightwhite2);
+        transition: .4s;
     }
 }
