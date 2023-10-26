@@ -260,8 +260,8 @@ nav {
 
 /* backToTop */
 #backToTop {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     animation: float 2.4s linear infinite;
     position: fixed;
     bottom: 10px;
@@ -326,8 +326,51 @@ nav {
 
 .bb-1 {
     border-bottom: 1px solid var(--light-gray) !important;
+}
+
+/* customer section */
+.customer-card {
+    border-radius: 15px;
+    border: 1px solid #242323;
+    max-width: 800px;
+    padding: 0px 26px;
+    height: 100%;
+}
+
+.slick-active .sec-customer-card:hover {
+    border-radius: 15px;
+    border: 1px solid #FFCF23;
+    box-shadow: 5px 5px 0px 0px var(--text-yellow);
 
 }
+
+.mw-344 {
+    max-width: 548px;
+}
+
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43px !important;
+    height: 11px !important;
+    content: '' !important;
+    text-align: center;
+    opacity: .25;
+    color: #000;
+    background-color: #000 !important;
+    border-radius: 7px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li {
+    margin: 0px 15px !important;
+}
+
 
 .footer-circle {
     width: 32px;
@@ -374,5 +417,13 @@ nav {
     .accordion-button::after {
         background-image: url('../images/accordian-arrow-img.png') !important;
         display: block;
+    }
+
+    .slick-dots li button:before {
+        width: 57px !important;
+    }
+
+    .slick-dots li {
+        margin: 0px 20px !important;
     }
 }
