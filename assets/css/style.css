@@ -190,8 +190,39 @@ ul {
 }
 
 /* Services */
+.my-container2 {
+    max-width: 1200px !important;
+}
+
 .mw-612 {
     max-width: 612px;
+}
+
+.services-dnaEllipse {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+}
+
+.services-particlesEllipse {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 32px;
+}
+
+.services-rectangleEllipse {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 32px;
+}
+
+.services-wiiEllipse {
+    position: absolute;
+    top: 1%;
+    right: 9%;
+    width: 32px;
 }
 
 .sec-box {
@@ -333,6 +364,26 @@ ul {
     border-right: 2px solid rgba(0, 0, 0, 0.10);
 }
 
+.pricing-orange {
+    position: absolute;
+    top: 0;
+    left: -2%;
+    width: 100px;
+}
+
+.pricing-dna {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+
+.pricing-wii {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    width: 32px;
+}
+
 /* webflow */
 .webflow-blue {
     position: absolute;
@@ -360,7 +411,6 @@ ul {
     background: rgba(255, 255, 255, 0.20);
     padding: 12px 23px;
     border: none;
-    width: 100px;
 }
 
 .webflow-ellipse1 {
@@ -396,6 +446,7 @@ ul {
     border-radius: 5px;
     background: #FFF9E4;
     padding: 16px 30px;
+    box-shadow: 5px 5px 0px 0px #3C3C3C;
     transition: .4s;
 }
 
@@ -403,6 +454,7 @@ ul {
     background: #FFF9E4;
     box-shadow: 5px 5px 0px 0px #3C3C3C;
     padding: 16px 30px;
+    box-shadow: unset;
 }
 
 .mw-slider {
@@ -562,29 +614,30 @@ ul {
     max-width: 548px;
 }
 
-.slick-dots li button:before {
-    font-family: slick;
-    font-size: 6px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 43px !important;
+.slick-dots li {
+
+    background-color: var(--light-gray);
+    width: 29px !important;
     height: 11px !important;
-    content: '' !important;
-    text-align: center;
-    opacity: .25;
-    color: #000;
-    background-color: #000 !important;
-    border-radius: 7px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    border-radius: 18px;
+    margin: 0 6px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active {
+    opacity: .75;
+    background-color: #000;
+    width: 57px !important;
 }
 
 .slick-dots li {
-    margin: 0px 15px !important;
+    margin: 0px 6px !important;
 }
 
+.slick-dots li button:before {
+    content: '' !important;
+}
 
 .footer-circle {
     width: 32px;
@@ -633,13 +686,6 @@ ul {
         display: block;
     }
 
-    .slick-dots li button:before {
-        width: 57px !important;
-    }
-
-    .slick-dots li {
-        margin: 0px 20px !important;
-    }
 
     .price-btn {
         padding: 16px 95px;
@@ -694,6 +740,41 @@ ul {
         position: absolute;
         bottom: 10%;
         right: 0;
+        width: unset;
+    }
+
+    .services-particlesEllipse {
+        position: absolute;
+        bottom: 10%;
+        right: 1%;
+        width: unset;
+    }
+
+    .services-rectangleEllipse {
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: unset;
+    }
+
+    .services-wiiEllipse {
+        position: absolute;
+        top: 10%;
+        right: 9%;
+        width: unset;
+    }
+
+    .pricing-orange {
+        position: absolute;
+        top: 0;
+        left: -2%;
+        width: unset;
+    }
+
+    .pricing-wii {
+        position: absolute;
+        top: 5%;
+        right: 5%;
         width: unset;
     }
 }

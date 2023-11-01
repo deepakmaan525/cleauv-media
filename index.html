@@ -162,21 +162,15 @@
         </div>
     </header>
     <!-- section -->
-    <div class="bg-lightwhite2 ">
-        <div class="container my-container2 py-5">
-            <div class="row py-5 gap-4 gap-lg-0 ">
-                <div class="col-lg-4 col-sm-6 ">
-                    <img class="w-100" src="./assets/images/sec2-img1.png" alt="sec-img">
-                </div>
-                <div class="col-lg-4 col-sm-6 ">
-                    <img class="w-100" src="./assets/images/sec2-img2.png" alt="sec-img">
-                </div>
-                <div class="col-lg-4 col-sm-6 ">
-                    <img class="w-100" src="./assets/images/sec2-img3.png" alt="sec-img">
-                </div>
+    <section class="bg-lightwhite2 py-md-5 py-2 overflow-hidden  ">
+        <div class="container my-container2">
+            <div class="slider-first d-flex align-items-center justify-content-center py-5">
+                <div class="me-3 mb-md-3 mb-2"><img src="./assets/images/sec2-img1.png" alt=""></div>
+                <div class="me-3 mb-md-3 mb-2"><img src="./assets/images/sec2-img2.png" alt=""></div>
+                <div class="me-3 mb-md-3 mb-2"><img src="./assets/images/sec2-img3.png" alt=""></div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- preloader -->
     <div class="loader_bg">
         <div class="loader"><img src="./assets/images/preloader.gif" alt="priloder"></div>
@@ -216,11 +210,16 @@
 
     <!-- services section -->
     <section class="bg-lightblack3 py-5 position-relative">
-        <div class="container my-container2">
+        <div class="container my-container3">
             <h2 class="fs-xl pb-3 fw-semibold ff-Montserrat text-lightwhite text-center pt-sm-5 mb-0">Services</h2>
             <p class="fs-sm fw-normal ff-montserrat text-gray1 text-center mw-612 mx-auto mb-0">Exceptional services
                 that
                 redefine excellence, exceeding expectations every time.</p>
+            <img class="services-dnaEllipse d-none d-md-block" src="./assets/images/services-dnaEllipse.png"
+                alt="ellipse">
+            <img class="services-particlesEllipse" src="./assets/images/services-particles.png" alt="ellipse">
+            <img class="services-rectangleEllipse" src="./assets/images/services-rectangles.png" alt="ellipse">
+            <img class="services-wiiEllipse" src="./assets/images/services-wiiEllipse.png" alt="ellipse">
             <div class="row p-4">
                 <div class="col-lg-3 col-sm-6 ">
                     <div class="fs-md mb-4 fw-semibold ff-Montserrat text-lightwhite sec-box text-center text-lg-start">
@@ -307,13 +306,16 @@
     </section>
 
     <!-- pricing section -->
-    <section class="bg-lightwhite2 pt-5">
+    <section class="bg-lightwhite2 pt-5 position-relative">
         <div class="container my-container py-5">
             <h2 class="mb-0 fs-xl fw-semibold ff-montserrat text-lightblack2 text-center">Pricing Plans</h2>
             <p class="mb-0 fs-sm fw-normal lh-150 ff-montserrat text-gray text-center pb-5">We offer flexible and
                 competitive pricing plans to suit your specific needs. </p>
-            <div class="row pb-5">
-                <div class="col-xl-4 col-lg-6 mb-5">
+            <img class="pricing-orange" src="./assets/images/pricing-orange.png" alt="ellipse">
+            <img class="pricing-dna d-none d-md-block" src="./assets/images/pricing-dna.png" alt="ellipse">
+            <img class="pricing-wii" src="./assets/images/pricing-wii.png" alt="ellipse">
+            <div class="row pb-5  ">
+                <div class="col-xl-4 col-lg-6 mb-5 d-flex justify-content-center">
                     <div class="pricing-card position-relative">
                         <button
                             class="priceuppar-btn fs-md fw-semibold ff-raleway position-priceBtn text-lightblack2">Most
@@ -379,7 +381,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 mb-5">
+                <div class="col-xl-4 col-lg-6 mb-5 d-flex justify-content-center">
                     <div class="pricing-card position-relative">
                         <button
                             class="priceuppar-btn fs-md fw-semibold ff-raleway position-priceBtn text-lightblack2">Paid
@@ -433,7 +435,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 mb-5">
+                <div class="col-xl-4 col-lg-6 mb-5 d-flex justify-content-center">
                     <div class="pricing-card position-relative">
                         <button
                             class="priceuppar-btn fs-md fw-semibold ff-raleway position-priceBtn text-lightblack2">One
@@ -546,14 +548,16 @@
 
     <!-- what our customer says -->
     <section class="overflow-hidden py-5 pb-5">
-        <h2 class="fs-xl fw-semibold ff-montserrat text-lightblack2 text-center pt-5">What Our Customer Say</h2>
-        <p class="fs-sm fw-normal ff-montserrat text-gray text-center">We offer flexible and competitive pricing
-            plans
-            to suit your specific needs. </p>
+        <div class="container">
+            <h2 class="fs-xl fw-semibold ff-montserrat text-lightblack2 text-center pt-5">What Our Customer Say</h2>
+            <p class="fs-sm fw-normal ff-montserrat text-gray text-center">We offer flexible and competitive pricing
+                plans
+                to suit your specific needs. </p>
+        </div>
         <div class="customer-slider py-5">
-            <div class="customer-card d-flex flex-column flex-sm-row gap-5 mx-4">
+            <div class="customer-card d-flex flex-column flex-sm-row gap-md-5 gap-2 mx-4">
                 <div class="d-flex flex-column justify-content-center">
-                    <img class="w-100" src="./assets/images/customer-slider2.png" alt="girl-img-slider1">
+                    <img class="w-100 pt-3 pt-md-0" src="./assets/images/customer-slider2.png" alt="girl-img-slider1">
                 </div>
                 <div>
                     <p class="fs-lg fw-semibold ff-Montserrat text-lightblack2 p-0 m-0">Arlene McCoy</p>
@@ -569,9 +573,9 @@
                         Ipsum passage, and going</p>
                 </div>
             </div>
-            <div class="customer-card d-flex flex-column flex-sm-row gap-5 mx-4">
+            <div class="customer-card d-flex flex-column flex-sm-row gap-md-5 gap-2 mx-4">
                 <div class="d-flex flex-column justify-content-center">
-                    <img class="w-100" src="./assets/images/customer-slider1.png" alt="girl-img-slider2">
+                    <img class="w-100 pt-3 pt-md-0" src="./assets/images/customer-slider1.png" alt="girl-img-slider2">
                 </div>
                 <div>
                     <p class="fs-lg fw-semibold ff-Montserrat text-lightblack2 p-0 m-0">Arlene McCoy</p>
@@ -587,9 +591,9 @@
                         Ipsum passage, and going</p>
                 </div>
             </div>
-            <div class="customer-card d-flex flex-column flex-sm-row gap-5 mx-4">
+            <div class="customer-card d-flex flex-column flex-sm-row gap-md-5 gap-2 mx-4">
                 <div class="d-flex flex-column justify-content-center">
-                    <img class="w-100" src="./assets/images/customer-slider1.png" alt="girl-img-slider1">
+                    <img class="w-100 pt-3 pt-md-0" src="./assets/images/customer-slider1.png" alt="girl-img-slider1">
                 </div>
                 <div>
                     <p class="fs-lg fw-semibold ff-Montserrat text-lightblack2 p-0 m-0">Arlene McCoy</p>
@@ -605,9 +609,9 @@
                         Ipsum passage, and going</p>
                 </div>
             </div>
-            <div class="customer-card d-flex flex-column flex-sm-row gap-5 mx-4">
+            <div class="customer-card d-flex flex-column flex-sm-row gap-md-5 gap-2 mx-4">
                 <div class="d-flex flex-column justify-content-center">
-                    <img class="w-100" src="./assets/images/customer-slider1.png" alt="girl-img-slider1">
+                    <img class="w-100 pt-3 pt-md-0" src="./assets/images/customer-slider1.png" alt="girl-img-slider1">
                 </div>
                 <div>
                     <p class="fs-lg fw-semibold ff-Montserrat text-lightblack2 p-0 m-0">Arlene McCoy</p>
@@ -623,9 +627,9 @@
                         Ipsum passage, and going</p>
                 </div>
             </div>
-            <div class="customer-card d-flex flex-column flex-sm-row gap-5 mx-4">
+            <div class="customer-card d-flex flex-column flex-sm-row gap-md-5 gap-2 mx-4">
                 <div class="d-flex flex-column justify-content-center">
-                    <img class="w-100" src="./assets/images/customer-slider1.png" alt="girl-img-slider1">
+                    <img class="w-100 pt-3 pt-md-0" src="./assets/images/customer-slider1.png" alt="girl-img-slider1">
                 </div>
                 <div>
                     <p class="fs-lg fw-semibold ff-Montserrat text-lightblack2 p-0 m-0">Arlene McCoy</p>
@@ -885,17 +889,21 @@
     <!-- preloader -->
     <script>
         setTimeout(function () {
-            once: true,
-                $('.loader_bg').fadeToggle();
+            $('.loader_bg').fadeToggle();
         }, 1700);
     </script>
+
     <script>
         $('.customer-slider').slick({
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             speed: 300,
             slidesToShow: 1,
             slidesToScroll: 1,
+            focusOnSelect: true,
+            variableWidth: true,
+            centerMode: true,
+            centerPadding: "60px",
             arrows: false,
             dots: true,
             responsive: [
@@ -906,6 +914,9 @@
                         slidesToScroll: 1,
                         infinite: true,
                         dots: true,
+                        focusOnSelect: false,
+                        variableWidth: false,
+                        centerMode: false,
                     }
                 },
                 {
@@ -913,6 +924,10 @@
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
+                        focusOnSelect: false,
+                        variableWidth: false,
+                        centerMode: false,
+
                     }
                 },
             ]
@@ -961,6 +976,39 @@
             ]
         }
         );
+
+
+        $('.slider-first').slick({
+            dots: true,
+            infinite: true,
+            autoplay: true,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 9999,
+                    settings: "unslick"
+                },
+                {
+                    breakpoint: 1040,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
     </script>
 
     <script src="./assets/js/app.js"></script>
